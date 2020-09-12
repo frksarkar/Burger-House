@@ -1,0 +1,250 @@
+	/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap');
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+	/*global css*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3, h4, h5, h6, span, a {
+	font-family:  'Bebas Neue', cursive;
+	color: #3d2514;
+}
+h1, button {
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+}
+
+
+
+	/*navbar section css here*/
+
+.navbar-sec {
+	background: url(../img/Rectangle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+}
+.nav-link {
+	font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0 12px;
+}
+.deli-img img {
+    width: 50px;
+}
+.deli-img p{
+	font-weight: 900;
+	font-size: 16px;
+}
+.outer-circle {
+    width: 150px;
+    height: 150px;
+    background: #bf2222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.inner-circle {
+    width: 130px;
+    height: 130px;
+    background: transparent;
+    border-radius: inherit; 
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='white' stroke-width='3' stroke-dasharray='6%2c 15' stroke-dashoffset='7' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+.inner-circle h2 {
+    text-align: center;
+    color: white;
+    font-size: 54px;
+}
+.inner-circle h2 span {
+	font-size: 20px;
+	color: white;
+}
+.inner-circle .cir-text {
+	font-size: 30px;
+	letter-spacing: 7px;
+}
+.burger {
+    font-size: 114px;
+    text-shadow: 4px 4px rgba(255 255 255 / 60%);
+    text-transform: uppercase;
+}
+.week {
+	font-size: 56px;
+	text-shadow: 4px 4px rgba(255 255 255 / 60%);
+	text-transform: uppercase;
+}
+.navbar-sec h3 {
+    border: 2px dashed;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar-sec .row {
+	margin-top: 20px;
+}
+.col-md-6 {
+	position: relative;
+}
+
+	/*food category section css here*/
+
+.bug-title {
+	position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.bug-title h2 {
+    color: white;
+    font-size: 43px;
+}
+.bug-title h3 {
+    color: white;
+    margin: 0;
+}
+.blog-cat {
+	position: relative;
+}
+.cat-title {
+	position: absolute;
+    top: 25px;
+    left: 30px;
+}
+.cat-title h4 {
+	color: white;
+	margin: 0;
+}
+.cat-title h2 {
+	font-size: 40px;
+    line-height: 36px;
+    color: white;
+}
+.botton-blog {
+	margin-top: 32px;
+}
+.food-cat {
+    margin: 80px 0px;
+}
+.cat-btn {
+	text-transform: uppercase;
+	font-family:  'Bebas Neue', cursive;
+    font-size: 26px;
+    color: #3d2514;
+    background: #ffc045;
+    border: 2px solid #ffc045;
+}
+.cat-btn:hover {
+	background: white;
+	border: 2px dashed;
+}
+
+	/*food title section css*/
+
+.pro-title {
+	text-align: center;
+	padding: 30px;
+}
+.pro-title h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.pro-title p {
+	line-height: 28px;
+}
+
+	/*events section css*/
+.event-body {
+	margin-top: 150px;
+	transition: 2s;
+}
+.event-body:hover {
+	box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.owl-dots {
+	position: absolute;
+	bottom: 20px;
+    left: 42px;
+}
+.item col-md-6 {
+	position: relative;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+	background: #ffc045 !important;
+}
+.owl-theme .owl-dots .owl-dot:focus {
+	outline: none;
+}
+
+	/*submit form section css*/
+
+.table {
+	background: url(../img/Group-0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.table-row {
+	padding: 180px 0;
+}
+.sub-tab input::placeholder {
+	font-family:  'Bebas Neue', cursive;
+}
+
+	/*social section css*/
+
+.socil {
+	background: url(../img/Layer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 100px;
+}
+.socil p {
+	color: white;
+}
+.socil ul li {
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+.socil ul li i {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+.logo-bottom {
+	margin: 85px 0 50px;
+}
+.bottm-dec {
+	margin-bottom: 175px;
+}
+.btm-col-left h5 {
+	color: white;
+}
+.btm-col-rit h4 {
+	color: white;
+	margin-bottom: 10px;
+}
+.envelop {
+	margin: 0px 30px;
+}
+.map {
+	margin: 0px 33px;
+}
+.socil ul li {
+	margin-left: 5px;
+}
