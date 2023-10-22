@@ -1,3 +1,3 @@
 # Burger-House
 live demo
-https://faruksarkar.github.io/Burger-House/
+https://frksarkar.github.io/Burger-House/
