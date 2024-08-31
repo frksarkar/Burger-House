@@ -31,3 +31,21 @@ Burger-House/
 ├── images/            # Contains image assets used in the project
 ├── icons/             # Contains icon assets used in the project
 └── index.html         # Main HTML file for the burger house webpage
+```
+
+## How to Use
+
+1. Clone the Repository:
+   ``` bash
+   git clone https://github.com/frksarkar/Burger-House.git
+
+2. Navigate to the Project Directory:
+   ``` bash
+   cd Burger-House
+
+3. Open **\`index.html\`** in your Browser:
+  
+   You can open the **index.html** file to view the Burger House webpage in your browser.
+
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have any ideas or suggestions.
